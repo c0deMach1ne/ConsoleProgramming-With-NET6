@@ -7,22 +7,4 @@
 // This line prints hello world
 Console.WriteLine("Hello, World!");
 
-// Sequence
-var name = "c0deMach1ne";
-
-// Decision
-if (name == "c0deMach1ne")
-{
-
-}
-else
-{
-
-}
-
-// Repition
-
-for (int i = 0; i < 10; i++)
-{
-    Console.WriteLine(i);
-}
+// Test Modification
