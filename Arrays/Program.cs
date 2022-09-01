@@ -44,3 +44,18 @@ for (int i = 0; i < studentNames.Length; i++)
 {
     Console.WriteLine(studentNames[i]);
 }
+
+// 2D Arrays
+int[,] numberGrid =
+{
+    { 0, 1 },
+    { 2, 3 },
+    { 4, 5 },
+};
+
+int[,] myArray = new int[2, 3];
+
+Console.Write("2D array result: ");
+Console.WriteLine(numberGrid[1, 1]);
+
+Console.ReadLine();
