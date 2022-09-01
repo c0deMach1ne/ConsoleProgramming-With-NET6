@@ -21,17 +21,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{635FDB9D-6D3E-4904-AD70-AD4D512EFEB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeManipulations", "DateTimeManipulations\DateTimeManipulations.csproj", "{8362733E-92C8-45BA-ACD9-EC2BE056239B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeManipulations", "DateTimeManipulations\DateTimeManipulations.csproj", "{8362733E-92C8-45BA-ACD9-EC2BE056239B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{96E6B3A0-0362-4585-B139-9E393A6F5B24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{96E6B3A0-0362-4585-B139-9E393A6F5B24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{CE82AE0B-70C1-4F01-B9BA-8F3B8730DEE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{CE82AE0B-70C1-4F01-B9BA-8F3B8730DEE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListCollections", "ListCollections\ListCollections.csproj", "{15F4DFEE-F08F-4997-9FB0-E4D328BF3834}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListCollections", "ListCollections\ListCollections.csproj", "{15F4DFEE-F08F-4997-9FB0-E4D328BF3834}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesAndObjects", "ClassesAndObjects\ClassesAndObjects.csproj", "{D77A6429-16CB-4598-967B-15222CB9823C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassesAndObjects", "ClassesAndObjects\ClassesAndObjects.csproj", "{D77A6429-16CB-4598-967B-15222CB9823C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{838E0486-76FA-42F3-A8A9-0CF3C990D274}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{838E0486-76FA-42F3-A8A9-0CF3C990D274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGame", "GuessingGame\GuessingGame.csproj", "{06B284E8-748D-492E-878D-62C13B260C59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{838E0486-76FA-42F3-A8A9-0CF3C990D274}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{838E0486-76FA-42F3-A8A9-0CF3C990D274}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{838E0486-76FA-42F3-A8A9-0CF3C990D274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B284E8-748D-492E-878D-62C13B260C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B284E8-748D-492E-878D-62C13B260C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B284E8-748D-492E-878D-62C13B260C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B284E8-748D-492E-878D-62C13B260C59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
