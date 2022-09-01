@@ -7,18 +7,22 @@
  * throw - end program execution with the error
  */
 
-Console.WriteLine("Enter first number: ");
-int num1 = Convert.ToInt32(Console.ReadLine());
-
-Console.WriteLine("Enter second number: ");
-int num2 = Convert.ToInt32(Console.ReadLine());
-
 try
 {
+    Console.Write("Enter first number: ");
+    int num1 = Convert.ToInt32(Console.ReadLine());
+
+    Console.Write("Enter second number: ");
+    int num2 = Convert.ToInt32(Console.ReadLine());
+
     int quotient = num1 / num2;
     Console.WriteLine("Result is: " + quotient.ToString());
 }
 catch (DivideByZeroException ex)
+{
+    Console.WriteLine($"Illegal Operation: {ex.Message}");
+}
+catch (FormatException ex)
 {
     Console.WriteLine($"Illegal Operation: {ex.Message}");
 }
